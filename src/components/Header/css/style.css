@@ -1,0 +1,53 @@
+#header {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(35, 223, 38);
+  border-bottom: 1px solid #333;
+  color: #fff;
+  position: relative;
+}
+#header .inner {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+#header .inner h2 {
+  font-size: 1.2rem;
+}
+#header .inner .blog-type {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: rgb(26, 183, 52);
+}
+#header .inner .type-tab {
+  width: 100px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: rgb(26, 183, 52);
+  display: none;
+}
+#header .inner .type-tab.on {
+  display: block;
+  position: absolute;
+}
+#header .inner #nav {
+  width: 210px;
+  height: 40px;
+}
+#header .inner #nav ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#header .inner #nav ul li {
+  font-size: 0.5rem;
+  font-weight: 300;
+  padding: 0.6rem 1rem;
+  border: 1px solid rgb(26, 183, 52);
+}
