@@ -3,7 +3,6 @@ import React, { useState } from "react";
 const Input = () => {
   const [type, setType] = useState("글");
   const [display, setDisplay] = useState(true);
-  console.log(display);
   function handlerSelectType(e) {
     console.log(e.target.innerText);
     setType((typeName) => (typeName = e.target.innerText));

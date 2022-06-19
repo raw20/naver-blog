@@ -1,12 +1,27 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./css/style.css";
-function Nav(props) {
+const naviList = [
+  { content: "핫토픽", href: "" },
+  { content: "슬라이드", href: "slide" },
+  { content: "로그인", href: "login" },
+];
+function Nav() {
   return (
     <div id="nav">
       <ul>
-        <li>핫토픽</li>
-        <li>슬라이드</li>
-        <li>로그인</li>
+        {naviList.map((li, index) => (
+          <li key={index}>
+            <NavLink
+              to={li.href}
+              className={({ isActive }) =>
+                isActive ? "navList on" : "navList"
+              }
+            >
+              {li.content}
+            </NavLink>
+          </li>
+        ))}
       </ul>
     </div>
   );

@@ -1,0 +1,71 @@
+.mainContainer {
+  --list-size: 1200px;
+  height: auto;
+}
+.mainContainer h2 {
+  font-size: 2.2rem;
+  color: rgb(26, 183, 52);
+  margin: 30px 100px;
+}
+.mainContainer .slideBtn {
+  border-bottom: 1px solid #777;
+  width: var(--list-size);
+  margin: auto;
+}
+.mainContainer .viewContents {
+  margin: auto;
+  width: var(--list-size);
+  border: 1px solid #999;
+  height: 500px;
+  overflow: hidden;
+}
+.mainContainer .slideBtn button {
+  padding: 0.5rem 1rem;
+  background-color: rgb(107, 168, 21);
+  margin: 0.1rem;
+  color: #fff;
+}
+.mainContainer .viewContents ul {
+  width: 500%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+.mainContainer .viewContents li {
+  flex-shrink: 0;
+  width: var(--list-size);
+  height: 500px;
+  font-size: 4rem;
+  text-align: center;
+  display: block;
+  color: #fff;
+}
+.mainContainer .viewContents li img {
+  width: 100%;
+  height: auto;
+}
+.mainContainer li.on {
+  display: block;
+}
+
+@keyframes firstSlide {
+  0% {
+    margin-left: 100%;
+    transition: none;
+  }
+  100% {
+    margin-left: 0;
+    transition: margin 500ms ease;
+  }
+}
+@keyframes lastSlide {
+  0% {
+    margin-left: 0;
+    transition: margin 500ms ease;
+  }
+  100% {
+    margin-left: 100%;
+    transition: none;
+  }
+}

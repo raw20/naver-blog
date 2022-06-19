@@ -3,16 +3,20 @@ import "./css/style.css";
 import ProductItem from "./ProductItem";
 
 function ProductList({ data }) {
+  const list = data;
   const dataArr = [];
-  dataArr.push(data.item);
-  console.log("dataArr : ", dataArr[0]);
+  dataArr.push(list.item[0]);
+  console.log("dataArr : ", dataArr);
 
   return (
     <div className="tab-list">
       <ul className="tab">
-        {dataArr[0].map((data, index) => (
-          <ProductItem key={index} data={data} />
-        ))}
+        {dataArr.map(
+          (data, index) => (
+            console.log("index", index, data),
+            (<ProductItem data={data} key={index} />)
+          )
+        )}
       </ul>
     </div>
   );
