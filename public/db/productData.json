@@ -12,24 +12,14 @@
     "thumbnail": "https://dummyjson.com/image/i/products/2/thumbnail.jpg",
     "item": [
       {
-        "index1": [
-          {
-            "images": "https://dummyjson.com/image/i/products/2/1.jpg",
-            "user": "user01"
-          }
+        "index": 1,
+        "images": [
+          "https://dummyjson.com/image/i/products/2/1.jpg",
+          "https://dummyjson.com/image/i/products/2/2.jpg",
+          "https://dummyjson.com/image/i/products/2/3.jpg"
         ],
-        "index2": [
-          {
-            "images": "https://dummyjson.com/image/i/products/2/2.jpg",
-            "user": "user02"
-          }
-        ],
-        "index3": [
-          {
-            "images": "https://dummyjson.com/image/i/products/2/3.jpg",
-            "user": "user03"
-          }
-        ]
+        "user": ["user01", "user02", "user03"],
+        "contentTitle": ["Title10", "Title11", "Title12"]
       }
     ]
   },
@@ -46,24 +36,14 @@
     "thumbnail": "https://dummyjson.com/image/i/products/5/thumbnail.jpg",
     "item": [
       {
-        "index1": [
-          {
-            "images": "https://dummyjson.com/image/i/products/5/1.jpg",
-            "user": "user04"
-          }
+        "index": 2,
+        "images": [
+          "https://dummyjson.com/image/i/products/5/1.jpg",
+          "https://dummyjson.com/image/i/products/5/2.jpg",
+          "https://dummyjson.com/image/i/products/5/3.jpg"
         ],
-        "index2": [
-          {
-            "images": "https://dummyjson.com/image/i/products/5/2.jpg",
-            "user": "user05"
-          }
-        ],
-        "index3": [
-          {
-            "images": "https://dummyjson.com/image/i/products/5/3.jpg",
-            "user": "user06"
-          }
-        ]
+        "user": ["user04", "user05", "user06"],
+        "contentTitle": ["Title1", "Title2", "Title3"]
       }
     ]
   },
@@ -80,24 +60,14 @@
     "thumbnail": "https://dummyjson.com/image/i/products/7/thumbnail.jpg",
     "item": [
       {
-        "index1": [
-          {
-            "images": "https://dummyjson.com/image/i/products/7/1.jpg",
-            "user": "user07"
-          }
+        "index": 3,
+        "images": [
+          "https://dummyjson.com/image/i/products/7/1.jpg",
+          "https://dummyjson.com/image/i/products/7/2.jpg",
+          "https://dummyjson.com/image/i/products/7/3.jpg"
         ],
-        "index2": [
-          {
-            "images": "https://dummyjson.com/image/i/products/7/2.jpg",
-            "user": "user08"
-          }
-        ],
-        "index3": [
-          {
-            "images": "https://dummyjson.com/image/i/products/7/3.jpg",
-            "user": "user09"
-          }
-        ]
+        "user": ["user07", "user08", "user09"],
+        "contentTitle": ["Title4", "Title5", "Title6"]
       }
     ]
   },
@@ -114,24 +84,13 @@
     "thumbnail": "https://dummyjson.com/image/i/products/8/thumbnail.jpg",
     "item": [
       {
-        "index1": [
-          {
-            "images": "https://dummyjson.com/image/i/products/8/1.jpg",
-            "user": "user10"
-          }
+        "images": [
+          "https://dummyjson.com/image/i/products/8/1.jpg",
+          "https://dummyjson.com/image/i/products/8/2.jpg",
+          "https://dummyjson.com/image/i/products/8/3.jpg"
         ],
-        "index2": [
-          {
-            "images": "https://dummyjson.com/image/i/products/8/2.jpg",
-            "user": "user11"
-          }
-        ],
-        "index3": [
-          {
-            "images": "https://dummyjson.com/image/i/products/8/3.jpg",
-            "user": "user12"
-          }
-        ]
+        "user": ["user10", "user11", "user12"],
+        "contentTitle": ["Title7", "Title8", "Title9"]
       }
     ]
   }

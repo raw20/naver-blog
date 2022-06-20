@@ -5,6 +5,7 @@ const naviList = [
   { content: "핫토픽", href: "" },
   { content: "슬라이드", href: "slide" },
   { content: "로그인", href: "login" },
+  { content: "카드", href: "card" },
 ];
 function Nav() {
   return (

@@ -46,8 +46,14 @@
   align-items: center;
 }
 #header .inner #nav ul li {
+  padding: 0.625rem;
   font-size: 0.5rem;
   font-weight: 300;
-  padding: 0.6rem 1rem;
-  border: 1px solid rgb(26, 183, 52);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid rgb(26, 183, 52);
+}
+#header .inner #nav ul li:last-child {
+  border-right: 1px solid rgb(26, 183, 52);
 }

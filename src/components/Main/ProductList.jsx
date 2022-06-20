@@ -6,17 +6,13 @@ function ProductList({ data }) {
   const list = data;
   const dataArr = [];
   dataArr.push(list.item[0]);
-  console.log("dataArr : ", dataArr);
-
+  console.log(dataArr);
   return (
     <div className="tab-list">
       <ul className="tab">
-        {dataArr.map(
-          (data, index) => (
-            console.log("index", index, data),
-            (<ProductItem data={data} key={index} />)
-          )
-        )}
+        {list.item.map((data, index) => (
+          <ProductItem data={data} key={index} />
+        ))}
       </ul>
     </div>
   );

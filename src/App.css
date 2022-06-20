@@ -98,3 +98,6 @@ mark {
 i {
   font-style: normal;
 }
+.blind {
+  display: none;
+}

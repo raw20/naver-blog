@@ -1,0 +1,33 @@
+.loginContainer {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.loginContainer h2 {
+  font-size: 2.2rem;
+  color: rgb(26, 183, 52);
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+}
+.loginContainer .loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loginContainer .loginForm input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #ccc;
+  font-size: 0.8rem;
+}
+.loginContainer .loginForm input:focus {
+  outline: none;
+}
+.loginContainer .loginForm button {
+  width: 300px;
+  height: 40px;
+  margin-top: 10px;
+  background-color: rgb(26, 183, 52);
+  color: #fff;
+}
