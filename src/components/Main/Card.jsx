@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import CardItem from "./CardItem";
+import "./css/card.css";
 
 function Card() {
   const [cardData, setCardData] = useState([]);

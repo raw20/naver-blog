@@ -19,7 +19,7 @@ function ProductItem({ data }) {
                   height: "40px",
                   borderRadius: "50%",
                 }}
-                src={"https://dummyimage.com/40x40/5a4be3/fff"}
+                src={data.userImages[index]}
                 alt=""
               />
               <span className="nickname">{data.user[index]}</span>

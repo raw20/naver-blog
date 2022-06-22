@@ -1,6 +1,8 @@
 import React from "react";
 import { MdFavorite } from "react-icons/md";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import About from "./About";
 
 function CardItem({ card }) {
   const favListColor = [{ color: "#ddd" }, { color: "#f20" }];
@@ -37,6 +39,18 @@ function CardItem({ card }) {
           좋아요
           <MdFavorite style={favListColor[like]} />
         </label>
+        <Link
+          to={`/about/${card.checkName}`}
+          state={{
+            title: card.title,
+            img: card.imgUrl,
+            name: card.imgAlt,
+            content: card.content,
+            favorite: btnColor[like],
+          }}
+        >
+          상세보기
+        </Link>
       </div>
     </li>
   );

@@ -1,0 +1,82 @@
+.card-area {
+  width: 100%;
+  height: auto;
+  max-width: 900px;
+  min-width: 400px;
+  min-height: 300px;
+  padding: 1.5rem 1rem;
+  margin: 3rem auto;
+  background-color: #cfd8dc;
+  color: #fff;
+}
+.card-area h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.card-wrap {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-wrap li {
+  width: 250px;
+  height: 350px;
+  padding: 0.1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #777;
+  border-radius: 0.3rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.3);
+}
+.card-wrap li .img_set {
+  width: 100%;
+  height: 150px;
+  background-color: #ddd;
+  border-radius: 0.25rem;
+}
+.card-wrap li dl {
+  width: 95%;
+  height: auto;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid #777;
+  height: 100px;
+}
+.card-wrap li dt {
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+  text-transform: capitalize;
+}
+.card-wrap li dd {
+  font-size: 0.9rem;
+  color: #666;
+}
+.card-wrap li .btns {
+  width: 85%;
+  height: auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.card-wrap li .btns input:focus + label {
+  box-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.7);
+}
+
+.card-wrap li .btns label {
+  cursor: pointer;
+  background-color: #0af;
+  border-radius: 0.3rem;
+  background-color: #ada;
+  padding: 0.6rem;
+  color: #fff;
+}
+
+.card-wrap li .btns a {
+  background-color: rgb(218, 135, 205);
+  border-radius: 0.3rem;
+  padding: 0.6rem;
+  color: #fff;
+}

@@ -5,6 +5,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Slide from "./components/Main/Slide";
 import Login from "./components/Main/Login";
 import Card from "./components/Main/Card";
+import About from "./components/Main/About";
+
 function App() {
   return (
     <div className="App">
@@ -15,6 +17,9 @@ function App() {
           <Route path="/slide" element={<Slide />} />
           <Route path="/login" element={<Login />} />
           <Route path="/card" element={<Card />} />
+          <Route path="/about">
+            <Route path="/about/:checkName" element={<About />} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </div>

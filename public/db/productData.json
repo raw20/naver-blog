@@ -19,7 +19,12 @@
           "https://dummyjson.com/image/i/products/2/3.jpg"
         ],
         "user": ["user01", "user02", "user03"],
-        "contentTitle": ["Title10", "Title11", "Title12"]
+        "contentTitle": ["Title10", "Title11", "Title12"],
+        "userImages": [
+          "https://picsum.photos/id/1084/40/40",
+          "https://picsum.photos/id/12/40/40",
+          "https://picsum.photos/id/11/40/40"
+        ]
       }
     ]
   },
@@ -43,7 +48,12 @@
           "https://dummyjson.com/image/i/products/5/3.jpg"
         ],
         "user": ["user04", "user05", "user06"],
-        "contentTitle": ["Title1", "Title2", "Title3"]
+        "contentTitle": ["Title1", "Title2", "Title3"],
+        "userImages": [
+          "https://picsum.photos/id/104/40/40",
+          "https://picsum.photos/id/1045/40/40",
+          "https://picsum.photos/id/1059/40/40"
+        ]
       }
     ]
   },
@@ -67,7 +77,12 @@
           "https://dummyjson.com/image/i/products/7/3.jpg"
         ],
         "user": ["user07", "user08", "user09"],
-        "contentTitle": ["Title4", "Title5", "Title6"]
+        "contentTitle": ["Title4", "Title5", "Title6"],
+        "userImages": [
+          "https://picsum.photos/id/1079/40/40",
+          "https://picsum.photos/id/1074/40/40",
+          "https://picsum.photos/id/1068/40/40"
+        ]
       }
     ]
   },
@@ -90,7 +105,12 @@
           "https://dummyjson.com/image/i/products/8/3.jpg"
         ],
         "user": ["user10", "user11", "user12"],
-        "contentTitle": ["Title7", "Title8", "Title9"]
+        "contentTitle": ["Title7", "Title8", "Title9"],
+        "userImages": [
+          "https://picsum.photos/id/123/40/40",
+          "https://picsum.photos/id/119/40/40",
+          "https://picsum.photos/id/129/40/40"
+        ]
       }
     ]
   }
