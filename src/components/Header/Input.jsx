@@ -12,7 +12,7 @@ const Input = () => {
     setDisplay((display) => !display);
   }
   return (
-    <div>
+    <div className="input">
       <p className="blog-type" onClick={handlerShowType}>
         {type}
       </p>
@@ -21,6 +21,7 @@ const Input = () => {
         <li onClick={handlerSelectType}>블로그</li>
         <li onClick={handlerSelectType}>별명 아이디</li>
       </ul>
+      <input type="text" name="" id="" />
     </div>
   );
 };

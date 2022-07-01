@@ -1,0 +1,40 @@
+.list h1 {
+  font-size: 1.5rem;
+  text-align: left;
+  margin-top: 2rem;
+  font-weight: 100;
+  color: #000;
+}
+.list .list-tab {
+  font-size: 0.875rem;
+  margin: 3rem auto;
+  width: 1200px;
+}
+.list .list-tab li {
+  padding: 2rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+}
+.list .list-tab li .list-header {
+  display: flex;
+}
+.list .list-tab li .list-header img {
+  border-radius: 50%;
+}
+.list .list-tab li .list-header .idName {
+  width: 4rem;
+}
+.list .list-tab li .list-main {
+  display: flex;
+  flex-direction: column;
+}
+.list .list-tab li .list-main .listTitle {
+  font-size: 1.5rem;
+}
+.list .list-tab li .list-main .listBody {
+  width: 50rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: wrap;
+  text-align: left;
+}

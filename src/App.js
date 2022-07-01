@@ -6,6 +6,7 @@ import Slide from "./components/Main/Slide";
 import Login from "./components/Main/Login";
 import Card from "./components/Main/Card";
 import About from "./components/Main/About";
+import Logout from "./components/Main/Logout";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<ProductTab />} />
           <Route path="/slide" element={<Slide />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/logout" element={<Logout />} />
           <Route path="/card" element={<Card />} />
           <Route path="/about">
             <Route path="/about/:checkName" element={<About />} />

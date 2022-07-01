@@ -16,27 +16,40 @@
 #header .inner h2 {
   font-size: 1.2rem;
 }
-#header .inner .blog-type {
+#header .inner .input {
+  display: flex;
+}
+#header .inner .input .blog-type {
   width: 100px;
   height: 30px;
   border: 1px solid #ccc;
   background-color: #fff;
   color: rgb(26, 183, 52);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
-#header .inner .type-tab {
+#header .inner .input .type-tab {
   width: 100px;
   border: 1px solid #ccc;
   background-color: #fff;
   color: rgb(26, 183, 52);
   display: none;
 }
-#header .inner .type-tab.on {
+#header .inner .input .type-tab.on {
   display: block;
   position: absolute;
 }
+#header .inner .input input {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
 #header .inner #nav {
-  width: 210px;
+  width: 420px;
   height: 40px;
+  display: flex;
 }
 #header .inner #nav ul {
   display: flex;
@@ -56,4 +69,7 @@
 }
 #header .inner #nav ul li:last-child {
   border-right: 1px solid rgb(26, 183, 52);
+}
+#header .inner #nav .user-name {
+  font-size: 0.3rem;
 }

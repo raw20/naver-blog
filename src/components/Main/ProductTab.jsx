@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import ProductList from "./ProductList";
 import SideList from "./SideList";
 import "./css/style.css";
+import ListTotal from "./ListTotal";
 
 function ProductTab() {
   const [num, setNum] = useState(0);
@@ -57,6 +58,7 @@ function ProductTab() {
           <SideList />
         </div>
       </div>
+      <ListTotal />
     </div>
   );
 }
